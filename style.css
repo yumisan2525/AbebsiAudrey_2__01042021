@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+
+body {
+    font-family: "Raleway", "Sans serif";
+    font-size: 15px;
+    list-style: none;
+    /*font page */
+}
+
+.fas fa-money-bill-wave-alt
+{
+    color: blue;
+}
+
+.fond1
+{
+    background-color: #F2F2F2;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.fond2
+{
+    background-color: white;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px grey;
+    width: 15%;
+}
+
+.fond3
+{
+    background-color: white;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;
+    width: 15%;
+}
+
+.fond4
+{
+    background-color: #F2F2F2;
+    border: 1px #F2F2F2 solid;
+}
