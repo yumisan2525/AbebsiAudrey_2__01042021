@@ -8,12 +8,28 @@ body {
     /*font page */
 }
 
-.fas fa-money-bill-wave-alt
+a /* Liens par défaut (non survolés) */
 {
-    color: blue;
+   text-decoration: none;
+   color: black;
 }
 
-.fond1
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: #0065FC;
+}
+
+#inscrire 
+{
+    color: #0065FC; /* seul lien en bleu permanent */
+}
+.fas fa-money-bill-wave-alt
+{
+    color: #0065FC;
+}
+
+.fond1 /* fond bloc hébergement */
 {
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
@@ -21,7 +37,7 @@ body {
     width: 60%;
 }
 
-.fond2
+.fond2 /* fond bloc lieu de réservations */
 {
     background-color: white;
     border: 1px #F2F2F2 solid;
@@ -30,7 +46,7 @@ body {
     width: 15%;
 }
 
-.fond3
+.fond3 /* fond bloc activités  */
 {
     background-color: white;
     border: 1px #F2F2F2 solid;
@@ -38,7 +54,7 @@ body {
     width: 15%;
 }
 
-.fond4
+.fond4 /* fond footer */
 {
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
