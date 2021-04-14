@@ -1,11 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
-
-body {
+header
+{
     font-family: "Raleway", "Sans serif";
     font-size: 15px;
     list-style: none;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav
+{
+  display: flex;
+  align-items: : flex-end;
+  justify-content: space-around
+
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: : flex-end;
+    justify-content: space-between;
+}
+
+nav li
+{
+    margin-right: 15px;
+
+}
+
+nav li:hoover
+{
+    text-decoration: overline;
+}
+
+.inscrire a
+{
+    color: #0065FC !important; /* seul lien en bleu permanent */
+}
+
+body {
+    font-family: "Raleway", "Sans serif";
+    font-size: 13px;
+    list-style: none;
+    background-color: white
+
     /*font page */
+}
+
+#bloc_page
+{
+    width: 1000px;
+    margin: auto ;
 }
 
 a /* Liens par défaut (non survolés) */
@@ -15,47 +65,161 @@ a /* Liens par défaut (non survolés) */
 }
 
 a:hover /* Apparence au survol des liens */
-{
-   text-decoration: underline;
-   color: #0065FC;
-}
 
-#inscrire 
-{
-    color: #0065FC; /* seul lien en bleu permanent */
-}
-.fas fa-money-bill-wave-alt
 {
     color: #0065FC;
+
 }
 
-.fond1 /* fond bloc hébergement */
+
+#recherche
 {
+
+}
+
+input
+{
+    background-color: white;
+    border: 1px #F2F2F2 solid;
+    
+}
+
+button
+{
+    background-color: #0065FC;
+    border: 1px #0065FC solid;
+    font-size: 12px;
+    color: white 
+}
+
+#filtres
+{
+    display: flex;
+}
+
+.filter_button
+{
+    background-color: white;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;color: #0065FC;
+    display: flex;
+    flex-direction: row
+    width: 100%
+    height: 20px;
+
+}
+
+.filter_button a
+{
+    background-color: white;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;color: #0065FC;
+    display: flex;
+    flex-direction: row
+}
+
+.filter_button .fas
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border: 1px #F2F2F2 solid;
+    border-radius: 50%;
+    width: 100%
+    height: 20px;
+}
+
+
+#bloc_hébergements /* bloc hébergement */
+{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
     width: 60%;
+    height: 550px
 }
 
-.fond2 /* fond bloc lieu de réservations */
+.bloc_logement /* bloc logements hébergements */
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: white;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
     box-shadow: 6px 6px 6px grey;
-    width: 15%;
+    width: 25%; 
+    height: 200px
+
 }
 
-.fond3 /* fond bloc activités  */
+aside h2
 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bloc_populaires /* bloc populaires */
+{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;
+    width: 40%;
+    height: 550px   
+}
+
+.bloc_logement_2 /* bloc logements populaires */
+{
+    display: flex; 
     background-color: white;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
-    width: 15%;
+    box-shadow: 6px 6px 6px grey;
+    width: 90%;
+    height: 100px;
+
 }
 
-.fond4 /* fond footer */
+#activités
 {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
+    border-radius: 10px;
+    width: 60%;
+    height: 550px
+}
+.bloc_activité_1 /* fond bloc activités portrait */
+{
+    justify-content: space-around;
+    background-color: white;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;
+    width: 25%; 
+    height: 200px
+}
+
+.bloc_activité_2 /* fond bloc activités paysage */
+{
+    justify-content: space-around;
+    background-color: white;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;
+    width: 25%; 
+    height: 200px
+}
+
+footer /* fond footer */
+{
+    display-flex:;
+    background-color: #F2F2F2;
+    border: 1px #F2F2F2 solid;
+    border-radius: 10px;
 }
