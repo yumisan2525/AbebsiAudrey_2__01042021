@@ -54,7 +54,7 @@ body {
 
 #bloc_page
 {
-    width: 1000px;
+    width: 1200px;
     margin: auto ;
 }
 
@@ -74,38 +74,53 @@ a:hover /* Apparence au survol des liens */
 
 #recherche
 {
-
+    display: flex;
 }
 
+#recherche .fas /* icone */
+{
+    display: flex;
+    background-color: #F2F2F2;
+    border: 1px #F2F2F2 solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    width: 15px
+}
 input
 {
     background-color: white;
-    border: 1px #F2F2F2 solid;
-    
+    border: 1px #F2F2F2 solid; 
 }
 
 button
 {
     background-color: #0065FC;
     border: 1px #0065FC solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button a
+{
+    color: white !important; 
     font-size: 12px;
-    color: white 
 }
 
 #filtres
 {
     display: flex;
+    justify-content: space-around;
+
 }
 
 .filter_button
 {
     background-color: white;
     border: 1px #F2F2F2 solid;
-    border-radius: 10px;color: #0065FC;
+    border-radius: 30px;color: #0065FC;
     display: flex;
     flex-direction: row
-    width: 100%
-    height: 20px;
+    width: auto;
 
 }
 
@@ -113,26 +128,35 @@ button
 {
     background-color: white;
     border: 1px #F2F2F2 solid;
-    border-radius: 10px;color: #0065FC;
+    border-radius: 25px;color: #0065FC;
     display: flex;
     flex-direction: row
 }
 
-.filter_button .fas
+.filter_button .fas /* icone */
 {
     background-color: #DEEBFF;
     color: #0065FC;
     border: 1px #F2F2F2 solid;
     border-radius: 50%;
-    width: 100%
-    height: 20px;
 }
 
 
-#bloc_hébergements /* bloc hébergement */
+section
 {
-    justify-content: space-around;
+    display-flex:;
+}
+
+#bloc_hébergements h2 /* bloc hébergement */
+{
     display: flex;
+}
+
+
+#bloc_hébergements 
+{
+    display: flex;
+    align-content: space-around;
     flex-wrap: wrap;
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
@@ -141,20 +165,37 @@ button
     height: 550px
 }
 
-.bloc_logement /* bloc logements hébergements */
+.bloc_logement a /* bloc logements dans hébergements */
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: white;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
     box-shadow: 6px 6px 6px grey;
-    width: 25%; 
-    height: 200px
-
+    width: 15%; 
+    height: 100px
 }
 
+.bloc_logement p
+{
+    width: auto;
+    margin: 0.25em;
+    padding: 0.25em;
+}
+
+.bloc_logement img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 60%;
+    height: auto;
+}
+
+aside
+{
+
+}
 aside h2
 {
     display: flex;
@@ -169,11 +210,11 @@ aside h2
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
-    width: 40%;
+    width: 30%;
     height: 550px   
 }
 
-.bloc_logement_2 /* bloc logements populaires */
+.bloc_logement_2 a /* bloc logements dans populaires */
 {
     display: flex; 
     background-color: white;
@@ -182,44 +223,91 @@ aside h2
     box-shadow: 6px 6px 6px grey;
     width: 90%;
     height: 100px;
-
 }
 
-#activités
+.bloc_logement_2 img
 {
-    justify-content: space-around;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: auto;
+    height: 100px;
+}
+
+#activités h2 /* bloc lieu activités */
+{
     display: flex;
-    flex-wrap: wrap;
-    background-color: #F2F2F2;
-    border: 1px #F2F2F2 solid;
-    border-radius: 10px;
-    width: 60%;
-    height: 550px
+    justify-content: flex-start;
 }
-.bloc_activité_1 /* fond bloc activités portrait */
+
+#activités 
 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px white solid;
+}
+.bloc_activité_1 a /* bloc activités portrait */
+{
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background-color: white;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
-    width: 25%; 
+    box-shadow: 6px 6px 6px grey;
+    width: auto; 
     height: 200px
 }
 
-.bloc_activité_2 /* fond bloc activités paysage */
+.bloc_activité_1 img
 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: auto;
+    height: 200px;
+}
+
+.bloc_activité_1 p
+{
+    width: auto;
+    margin: 0.25em;
+    padding: 0.25em;
+}
+.bloc_activité_2 a /* bloc activités paysage */
+{
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background-color: white;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
-    width: 25%; 
+    box-shadow: 6px 6px 6px grey;
+    width: auto; 
     height: 200px
+}
+.bloc_activité_2 p
+{
+    width: auto;
+    margin: 0.25em;
+    padding: 0.25em;
+}
+
+.bloc_activité_2 img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 50px
+    width: auto;
+    height: 200px;
 }
 
 footer /* fond footer */
 {
     display-flex:;
     background-color: #F2F2F2;
-    border: 1px #F2F2F2 solid;
-    border-radius: 10px;
+}
+
+footer ul
+{
+   list-style-type: none;
 }
