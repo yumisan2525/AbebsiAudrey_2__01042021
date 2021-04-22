@@ -104,16 +104,7 @@ a:hover /* Apparence au survol des liens */
     display: flex;
 }
 
-/*#recherche .fas 
-{
-    display: flex;
-    align-items: center;
-    background-color: #F2F2F2;
-    border: 1px #F2F2F2 solid;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px; 
-    width: 15px
-}*/
+
 
 .localisation .fas
 {
@@ -175,31 +166,7 @@ input
     background-color: #F2F2F2;
 }
 
-/*
-.icone_bouton
-{
-    min-width: 50px;
-    display: flex;
-    align-items: center;
-    height: 100%
-    background-color: #DEEBFF;
-    border-radius: 50%
-}
 
-.icone_bouton .fas
-{
-    width: 25px;
-}
-
-.txt_bouton p
-{ 
-    display: inline-flex;
-    height: 100%
-    min-width: 150px;
-    font-size: 10px
-}
-
-*/
 #filtres button a
 {
     display: flex;
@@ -234,97 +201,6 @@ input
 {
     font-size: 15px
 }
-/*
-.filter_button
-{
-    background-color: white;
-    border: 1px #F2F2F2 solid;
-    border-radius: 30px;
-    color: #0065FC;
-    display: flex;
-    flex-direction: row
-    width: 200px;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.filter_button a
-{
-    background-color: white;
-    border: 1px #F2F2F2 solid;
-    border-radius: 30px;
-    color: #0065FC;
-    display: flex;
-    flex-direction: row
-    justify-content: center;
-    align-items: center;
-}
-
-.filter_button .fas /* icone */
-/*
-{
-    background-color: #DEEBFF;
-    color: #0065FC;
-    border: 1px #F2F2F2 solid;
-    border-radius: 50%;
-    width: 40px;
-    height: 30px;
-    margin-right: 20px;
-    padding-top: 12px;
-    text-align: center;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-#filters form input[type=checkbox]
-{
-   display: none;
-   height: 50px;
-}
-
-#filters
-{
-    padding-right: 0px;
-}
-
-#filters form
-{
-    flex-wrap: wrap;
-    font-size: 1.1em;
-}
-
-
-.filters_icons
-
-{
-    height: 20px;
-    width: 20px;
-}
-.filters_text
-{
-    height: auto;
-    width: auto;
-    padding: 10px;
-}
-
-.filters_block
-
-{
-    height: auto;
-    margin-right: 12px;
-    margin-bottom: 12px;
-    display: flex;
-    justify-content: flex-start;
-    width: 200px;
-}
-
-.economique
-{
-    width: auto; 
-}
-*/
 
 .information
 {
@@ -401,32 +277,7 @@ i.grey
     color: #F2F2F2 ;
 }
 /*.bloc_logement a /* bloc logements dans hébergements */
-/*{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border: 1px #F2F2F2 solid;
-    border-radius: 10px;
-    box-shadow: 6px 6px 6px grey;
-    width: 220px; 
-    height: 150px
-}
 
-.bloc_logement p
-{
-    width: auto;
-    margin: 0.25em;
-    padding: 0.25em;
-}
-
-.bloc_logement img
-{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 70px;
-    object-fit: cover;
-}
-*/
 aside h2
 {
     display: flex;
