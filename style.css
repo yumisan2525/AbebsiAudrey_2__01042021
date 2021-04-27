@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
-@media all and (max-device-width: 480px)
+@media screen and (max-width: 375px)
 {
+    #bloc_page
+    {
+        max-width: 367px;
+    }
 
+    header
+    {
+        max-width: 367px;
+    }
     nav
     {
-        width: 100%;
+        width: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -38,6 +46,10 @@ header
     align-items: flex-end;
 }
 
+header img
+{
+    width: 20%;
+}
 nav
 {
   display: flex;
@@ -51,7 +63,7 @@ nav ul
     list-style-type: none;
     display: flex;
     align-items: : flex-end;
-    justify-content: space-between;
++
 }
 
 nav li
@@ -63,6 +75,7 @@ nav li
 nav li:hover
 {
     text-decoration: overline;
+
 }
 
 .inscrire a
@@ -99,7 +112,7 @@ a:hover /* Apparence au survol des liens */
 }
 
 
-#recherche
+.recherche
 {
     display: flex;
 }
@@ -126,22 +139,19 @@ input
     height: 27px
 }
 
-#recherche button
+.recherche button
 {
     background-color: #0065FC;
+    color: white;
+    font-family: "Raleway", "Sans serif";
     border: 1px #0065FC solid;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 30px
 }
 
-#recherche button a
-{
-    color: white !important; 
-    font-size: 12px;
-}
 
-#filtres
+.filtres
 {
     display: flex;
     justify-content: space-around;
@@ -149,6 +159,23 @@ input
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 375px)
+{
+    .filtres
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        max-width:375px;
+    }
+
+    .filter_button
+    {
+
+    }
+
+}
 .filter_button
 {
     background-color: white;
@@ -174,7 +201,7 @@ input
     color: #0065FC;
 }
 
-#filtres a p
+.filtres a p
 {
     font-family: "Raleway", "Sans serif";
     color: black;
@@ -202,10 +229,6 @@ input
     font-size: 15px
 }
 
-.information
-{
-    display: flex;
-}
 .information.fas
 {
     display: flex;
@@ -216,6 +239,8 @@ input
     margin-right: : 2px 
 }
 
+
+
 #section_heg_pop
 {
     display: flex;
@@ -224,13 +249,42 @@ input
     width: auto;
 }
 
+@media screen and (max-width: 375px)
+{
+    #section_heg_pop
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .bloc_hébergements
+    {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        max-width: 367px;
+    }
+
+    .hotels
+    {   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc_populaires
+    {
+        max-width: 367px;
+    }
+
+}
 
 .bloc_hébergements 
 {
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
-    width: 800px;
+    width: 850px;
     height: 500px
 }
 
@@ -284,7 +338,7 @@ aside h2
     justify-content: space-around;
 }
 
-#bloc_populaires /* bloc populaires */
+.bloc_populaires /* bloc populaires */
 {
     display: flex;
     flex-direction: column;
@@ -295,11 +349,12 @@ aside h2
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
     width: 400px;
-    height: 500px
+    height: 500px;
 }
 
 .bloc_logement_2 /* bloc logements dans populaires */
 {
+    margin: auto;
     padding: 5px;
     display: flex; 
     justify-content: space-around;
@@ -354,7 +409,6 @@ aside h2
     display: flex;
     flex-direction: column;
     background-color: white;
-    
     border-radius: 10px;
     box-shadow: 6px 6px 6px grey;
     width: 250px; 
@@ -386,7 +440,6 @@ aside h2
     display: flex;
     flex-direction: column;
     background-color: white;
-    
     border-radius: 10px;
     box-shadow: 6px 6px 6px grey;
     width: 250px; 
