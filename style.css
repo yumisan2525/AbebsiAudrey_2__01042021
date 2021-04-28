@@ -1,40 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
-@media screen and (max-width: 375px)
-{
-    #bloc_page
-    {
-        max-width: 367px;
-    }
 
-    header
-    {
-        max-width: 367px;
-    }
-    nav
-    {
-        width: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    nav ul
-    {
-        display: flex;
-        text-decoration: underline;
-        text-decoration-color: #F2F2F2;
-        text-decoration-line: 3px;
-    }
-
-    nav ul:hover
-    {
-        text-decoration-color: #0065FC
-    }
-
-
-}
 header
 {
     font-family: "Raleway", "Sans serif";
@@ -111,6 +77,41 @@ a:hover /* Apparence au survol des liens */
 
 }
 
+@media screen and (max-width: 375px)
+{
+    #bloc_page
+    {
+        max-width: 367px;
+    }
+
+    header
+    {
+        max-width: 367px;
+    }
+    nav
+    {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul
+    {
+        display: flex;
+        text-decoration: underline;
+        text-decoration-color: #F2F2F2;
+        text-decoration-line: 3px;
+    }
+
+    nav ul:hover
+    {
+        text-decoration-color: #0065FC
+    }
+
+
+}
 
 .recherche
 {
@@ -159,23 +160,7 @@ input
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 375px)
-{
-    .filtres
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: stretch;
-        max-width:375px;
-    }
 
-    .filter_button
-    {
-
-    }
-
-}
 .filter_button
 {
     background-color: white;
@@ -229,6 +214,24 @@ input
     font-size: 15px
 }
 
+@media screen and (max-width: 375px)
+{
+    .filtres
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        max-width:375px;
+    }
+
+    .filter_button
+    {
+        margin-bottom: 20px;
+
+    }
+
+}
 .information.fas
 {
     display: flex;
@@ -247,36 +250,6 @@ input
     justify-content: space-between;
     flex-flow: row nowrap;
     width: auto;
-}
-
-@media screen and (max-width: 375px)
-{
-    #section_heg_pop
-    {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .bloc_hébergements
-    {
-        display: flex;
-        flex-direction: column;
-        background: white;
-        max-width: 367px;
-    }
-
-    .hotels
-    {   
-        display: flex;
-        flex-direction: column;
-    }
-
-    .bloc_populaires
-    {
-        max-width: 367px;
-    }
-
 }
 
 .bloc_hébergements 
@@ -388,6 +361,48 @@ aside h2
     height: 100px;
 }
 
+@media screen and (max-width: 375px)
+{
+    #section_heg_pop
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .bloc_hébergements
+    {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border: none;
+        max-width: 367px;
+        height: auto;
+    }
+
+    .hotels
+    {   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc_populaires
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        border-radius: 0px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .bloc_logement_2
+    {
+        margin-bottom: 20px;
+    }
+
+}
 #activités h2 /* bloc lieu activités */
 {
     display: flex;
@@ -460,6 +475,38 @@ aside h2
     object-fit: cover;
 }
 
+@media screen and (max-width: 375px)
+{
+    #activités
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: : center; 
+
+    }
+    .bloc_activité_1 a
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px grey;
+        width: 250px; 
+        height: 200px;
+    }
+
+    .bloc_activité_1 img
+    {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+
+}
 footer /* fond footer */
 {
     display: flex;
