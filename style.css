@@ -14,7 +14,7 @@ header
 
 header img
 {
-    width: 20%;
+    width: 15%;
 }
 nav
 {
@@ -162,7 +162,12 @@ input
     height: 27px
 }
 
-.recherche button
+button i.fas.fa-search
+{
+    font-size: 0px;
+}
+
+.recherche button 
 {
     background-color: #0065FC;
     color: white;
@@ -174,7 +179,23 @@ input
 
 }
 
-
+@media screen and (max-width: 375px)
+{
+    .recherche
+    {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    button i.fas.fa-search
+    {
+        font-size: 15px;
+    }
+    button
+    {
+        font-size: 0px;
+    }
+}
 .filtres
 {
     display: flex;
