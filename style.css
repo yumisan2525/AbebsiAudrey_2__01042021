@@ -28,8 +28,7 @@ nav ul
 {
     list-style-type: none;
     display: flex;
-    align-items: : flex-end;
-+
+    align-items: flex-end;
 }
 
 nav li
@@ -38,11 +37,6 @@ nav li
 
 }
 
-nav li:hover
-{
-    text-decoration: overline;
-
-}
 
 .inscrire a
 {
@@ -79,6 +73,12 @@ a:hover /* Apparence au survol des liens */
 
 @media screen and (max-width: 375px)
 {
+    body
+    {
+        margin: 0px;
+        width: 100%;
+        box-sizing : border-box;
+    }
     #bloc_page
     {
         max-width: 367px;
@@ -87,29 +87,39 @@ a:hover /* Apparence au survol des liens */
     header
     {
         max-width: 367px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
+
+    header img
+
+    {
+        width: 20%;
+    }
+
     nav
     {
-        width: auto;
+        width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        justify-content: space-around;
     }
 
     nav ul
     {
         display: flex;
-        text-decoration: underline;
-        text-decoration-color: #F2F2F2;
-        text-decoration-line: 3px;
+        justify-content: space-between;
+        border-bottom: 3px solid #F2F2F2;
+        width: 100%;
+        padding-bottom: 10px;
     }
 
     nav ul:hover
     {
-        text-decoration-color: #0065FC
+        border-color: #0065FC
     }
-
 
 }
 
@@ -126,6 +136,7 @@ a:hover /* Apparence au survol des liens */
     justify-content: center;
     align-items: center;
     background-color: #F2F2F2;
+    color: grey;
     border: 1px #F2F2F2 solid;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px; 
@@ -370,6 +381,11 @@ aside h2
 
     }
 
+    aside
+    {
+        order: -1;
+    }
+
     .bloc_hébergements
     {
         display: flex;
@@ -505,6 +521,16 @@ aside h2
         object-fit: cover;
     }
 
+    .bloc_activité_1
+    {
+        margin-bottom: 20px;
+    }
+
+    .bloc_activité_2
+    {
+        margin-bottom: 20px;
+    }
+
 
 }
 footer /* fond footer */
@@ -517,4 +543,14 @@ footer /* fond footer */
 footer ul
 {
    list-style-type: none;
+}
+
+@media screen and (max-width: 375px)
+{
+    footer
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
