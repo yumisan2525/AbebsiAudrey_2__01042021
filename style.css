@@ -14,7 +14,7 @@ header
 
 header img
 {
-    width: 15%;
+    width: 12%;
 }
 nav
 {
@@ -55,7 +55,7 @@ body {
 
 #bloc_page
 {
-    width: 1300px;
+    width: 1500px;
     margin: auto ;
 }
 
@@ -90,6 +90,7 @@ a:hover /* Apparence au survol des liens */
     #bloc_page
     {
         width: 100%;
+        margin:7px;
     }
 
     header
@@ -103,7 +104,7 @@ a:hover /* Apparence au survol des liens */
     header img
 
     {
-        width: 30%;
+        width: 20%;
         position: absolute;
     }
 
@@ -126,7 +127,7 @@ a:hover /* Apparence au survol des liens */
         padding-top: 30px;
     }
 
-    nav ul:hover
+    nav li:hover
     {
         border-color: #0065FC
     }
@@ -341,7 +342,7 @@ i.fas.fas-info
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
-    width: 850px;
+    width: 1000px;
     height: 500px
 }
 
@@ -363,14 +364,14 @@ i.fas.fas-info
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
     box-shadow: 6px 6px 6px grey;
-    width: 220px; 
+    width: 270px; 
     margin-bottom: 10px;
     margin-right: 1px;
 }
 
 .bloc_logement img
 {
-    width: 220px;
+    width: 270px;
     height: 100%;
     max-height: 90px;
     border-top-left-radius: 10px;
@@ -410,7 +411,7 @@ i.fas.fa-chart-line
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
-    width: 400px;
+    width: 450px;
     height: 500px;
 }
 
@@ -419,7 +420,7 @@ i.fas.fa-chart-line
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: : center
+    align-content: : center;
 }
 
 .bloc_logement_2 a /* bloc logements dans populaires */
@@ -432,7 +433,7 @@ i.fas.fa-chart-line
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
     box-shadow: 6px 6px 6px grey;
-    width: 250px;
+    width: 290px;
     height: 100px;
 }
 
@@ -446,7 +447,7 @@ i.fas.fa-chart-line
 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 100px;
+    width: 130px;
     height: 100px;
     object-fit: cover;
 }
@@ -488,7 +489,7 @@ i.fas.fa-chart-line
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 100%;
+        width: auto;
         border-radius: 0px;
         height: auto;
         padding-bottom: 20px;
