@@ -19,7 +19,7 @@ header img
 nav
 {
   display: flex;
-  align-items: : flex-end;
+  align-items: flex-end;
   justify-content: space-around
 
 }
@@ -72,7 +72,7 @@ a:hover /* Apparence au survol des liens */
 
 }
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 768px)
 {
     body
     {
@@ -81,14 +81,20 @@ a:hover /* Apparence au survol des liens */
         box-sizing : border-box;
     }
 
+    h1 h2
+
+    {
+        padding-left: 10px;
+    }
+
     #bloc_page
     {
-        max-width: 367px;
+        width: 100%;
     }
 
     header
     {
-        max-width: 367px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -179,7 +185,7 @@ button i.fas.fa-search
 
 }
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 768px)
 {
     .recherche
     {
@@ -195,7 +201,21 @@ button i.fas.fa-search
     {
         font-size: 0px;
     }
+
+
+    .recherche button 
+    {
+        background-color: #0065FC;
+        color: white;
+        font-family: "Raleway", "Sans serif";
+        border: 1px #0065FC solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 30px
+
+    }
 }
+
 .filtres
 {
     display: flex;
@@ -258,20 +278,22 @@ button i.fas.fa-search
     font-size: 15px
 }
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 768px)
 {
     .filtres
     {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: stretch;
-        max-width:375px;
+        width: 100%;
+        padding-top: 25px;
     }
 
     .filter_button
     {
         margin-bottom: 20px;
+        width: auto;
 
     }
 
@@ -281,6 +303,7 @@ button i.fas.fa-search
     }
 
 }
+
 
 i.fas.fas-info
 {
@@ -300,7 +323,7 @@ i.fas.fas-info
     border: 1px #F2F2F2 solid;
     border-radius: 50%; 
     width: 12px;
-    margin-right: : 2px;
+    margin-right: 2px;
     align-items: center;
     justify-content: center;
 }
@@ -372,13 +395,18 @@ aside h2
     justify-content: space-around;
 }
 
+i.fas.fa-chart-line
+{
+    margin-left: 50px;
+}
+
 .bloc_populaires /* bloc populaires */
 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
-    align-items: : center;
+    align-items: center;
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
@@ -386,7 +414,15 @@ aside h2
     height: 500px;
 }
 
-.bloc_logement_2 /* bloc logements dans populaires */
+.hotels_pop
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: : center
+}
+
+.bloc_logement_2 a /* bloc logements dans populaires */
 {
     margin: auto;
     padding: 5px;
@@ -400,10 +436,10 @@ aside h2
     height: 100px;
 }
 
-.bloc_logement_2 a
+.bloc_logement_2
 {
     width: 40%;
-    height: 100px;
+    height: 130px;
 }
 
 .bloc_logement_2 img
@@ -415,14 +451,8 @@ aside h2
     object-fit: cover;
 }
 
-.intitulé_2
-{
-    margin:10px;
-    width: 60%;
-    height: 100px;
-}
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 768px)
 {
     #section_heg_pop
     {
@@ -442,7 +472,7 @@ aside h2
         flex-direction: column;
         background: white;
         border: none;
-        max-width: 367px;
+        width: 100%;
         height: auto;
     }
 
@@ -451,6 +481,7 @@ aside h2
         display: flex;
         flex-direction: column;
     }
+
 
     .bloc_populaires
     {
@@ -469,6 +500,9 @@ aside h2
     }
 
 }
+
+
+
 #activités h2 /* bloc lieu activités */
 {
     display: flex;
@@ -541,7 +575,7 @@ aside h2
     object-fit: cover;
 }
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 768px)
 {
     #activités
     {
@@ -549,7 +583,7 @@ aside h2
         flex-direction: column;
         justify-content: space-around;
         align-content: center;
-        align-items: : center; 
+        align-items: center; 
 
     }
     .bloc_activité_1 a
@@ -583,6 +617,7 @@ aside h2
 
 
 }
+
 footer /* fond footer */
 {
     display: flex;
@@ -595,7 +630,7 @@ footer ul
    list-style-type: none;
 }
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 768px)
 {
     footer
     {
