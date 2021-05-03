@@ -76,8 +76,7 @@ a:hover /* Apparence au survol des liens */
 {
     body
     {
-        margin: 0px;
-        width: 100%;
+        width: 92%;
         box-sizing : border-box;
     }
 
@@ -89,8 +88,8 @@ a:hover /* Apparence au survol des liens */
 
     #bloc_page
     {
-        width: 96%;
-        margin:7px;
+        width: 100%;
+        padding:7px;
     }
 
     header
