@@ -89,7 +89,7 @@ a:hover /* Apparence au survol des liens */
 
     #bloc_page
     {
-        width: 100%;
+        width: 96%;
         margin:7px;
     }
 
@@ -104,7 +104,7 @@ a:hover /* Apparence au survol des liens */
     header img
 
     {
-        width: 20%;
+        width: 16%;
         position: absolute;
     }
 
