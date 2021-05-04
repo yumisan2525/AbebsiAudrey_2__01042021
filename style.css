@@ -163,6 +163,7 @@ a:hover /* Apparence au survol des liens */
 }
 input
 {
+    font-family: "Raleway", "Sans serif"; 
     background-color: white;
     border: 1px #F2F2F2 solid; 
     height: 27px
@@ -499,6 +500,18 @@ i.fas.fa-chart-line
         margin-bottom: 20px;
     }
 
+    .bloc_logement_2 a
+    {
+        width: 331px;
+        height: 135px;
+    }
+
+    .bloc_logement_2 img
+    {
+        width: 159px;
+        height: 123px;
+    }
+
 }
 
 
@@ -610,9 +623,24 @@ i.fas.fa-chart-line
         margin-bottom: 20px;
     }
 
+    .bloc_activité_1 a
+    {
+        width: 270px;
+        height: 200px;
+        margin-left: 15px;
+    }
+
     .bloc_activité_2
     {
         margin-bottom: 20px;
+        margin-left: -16px;
+    }
+
+    .bloc_activité_2 a
+    {
+        width: 270px;
+        height: 200px;
+        margin-left: 39px;
     }
 
     .colonne_activité 
