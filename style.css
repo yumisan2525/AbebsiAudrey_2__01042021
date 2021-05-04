@@ -580,7 +580,7 @@ i.fas.fa-chart-line
     #activités
     {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-content: center;
         align-items: center; 
@@ -615,6 +615,13 @@ i.fas.fa-chart-line
         margin-bottom: 20px;
     }
 
+    .colonne_activité 
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    order: -1;
+    margin-right: 15px;
 
 }
 
