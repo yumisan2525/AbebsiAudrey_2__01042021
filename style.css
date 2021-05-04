@@ -433,7 +433,7 @@ i.fas.fa-chart-line
     border-radius: 10px;
     box-shadow: 6px 6px 6px grey;
     width: 290px;
-    height: 100px;
+    height: 115px;
 }
 
 .bloc_logement_2
@@ -447,7 +447,7 @@ i.fas.fa-chart-line
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 130px;
-    height: 88px;
+    height: 103px;
     object-fit: cover;
     padding-right: 5px;
 }
@@ -479,7 +479,7 @@ i.fas.fa-chart-line
     .hotels
     {   
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
 
