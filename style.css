@@ -15,7 +15,7 @@ header
 
 header img
 {
-    width: 12%;
+    width: 10%;
 }
 nav
 {
@@ -342,7 +342,8 @@ i.fas.fas-info
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
     width: 1000px;
-    height: 500px
+    height: auto;
+    margin-left: 21px;
 }
 
 .bloc_hébergements h1
@@ -412,6 +413,7 @@ i.fas.fa-chart-line
     border-radius: 10px;
     width: 450px;
     height: 500px;
+    margin-right: 20px;
 }
 
 .hotels_pop
