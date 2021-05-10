@@ -56,7 +56,6 @@ body {
 
 #bloc_page
 {
-    width: 1500px;
     margin: auto ;
 }
 
@@ -651,6 +650,7 @@ i.fas.fa-chart-line
     order: -1;
     margin-right: 15px;
 
+}
 }
 
 footer /* fond footer */
