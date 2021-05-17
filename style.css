@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 *{box-sizing: border-box;}
-
-
 header
 {
     font-family: "Raleway", "Sans serif";
@@ -12,66 +10,52 @@ header
     justify-content: space-between;
     align-items: flex-end;
 }
-
 header img
 {
-    width: 10%;
+    width: 12%;
 }
 nav
 {
   display: flex;
   align-items: flex-end;
   justify-content: space-around
-
 }
-
 nav ul
 {
     list-style-type: none;
     display: flex;
     align-items: flex-end;
 }
-
 nav li
 {
     margin-right: 15px;
-
 }
-
-
 .inscrire a
 {
     color: #0065FC !important; /* seul lien en bleu permanent */
     font-weight: bold;
 }
-
 body {
     font-family: "Raleway", "Sans serif";
     font-size: 13px;
     list-style: none;
     background-color: white
-
     /*font page */
 }
-
 #bloc_page
 {
+    width: 1500px;
     margin: auto ;
 }
-
 a /* Liens par défaut (non survolés) */
 {
    text-decoration: none;
    color: black;
 }
-
 a:hover /* Apparence au survol des liens */
-
 {
     color: #0065FC;
-
 }
-
 @media screen and (max-width: 768px)
 {
     body
@@ -79,18 +63,14 @@ a:hover /* Apparence au survol des liens */
         width: auto;
         box-sizing : border-box;
     }
-
     h1 h2
-
     {
         padding-left: 10px;
     }
-
     #bloc_page
     {
         width: auto;
     }
-
     header
     {
         width: 100%;
@@ -98,14 +78,11 @@ a:hover /* Apparence au survol des liens */
         flex-direction: column;
         align-items: flex-start;
     }
-
     header img
-
     {
         width: 16%;
         position: absolute;
     }
-
     nav
     {
         width: 100%;
@@ -114,7 +91,6 @@ a:hover /* Apparence au survol des liens */
         align-items: flex-end;
         justify-content: space-around;
     }
-
     nav ul
     {
         display: flex;
@@ -124,28 +100,21 @@ a:hover /* Apparence au survol des liens */
         padding-bottom: 20px;
         padding-top: 30px;
     }
-
     nav li:hover
     {
         border-color: #0065FC
     }
-
     nav li
     {
         width: 50%;
         display: flex;
         justify-content: center;
     }
-
 }
-
 .recherche
 {
     display: flex;
 }
-
-
-
 .localisation .fas
 {
     display: flex;
@@ -167,12 +136,10 @@ input
     border: 1px #F2F2F2 solid; 
     height: 27px
 }
-
 button i.fas.fa-search
 {
     font-size: 0px;
 }
-
 .recherche button 
 {
     background-color: #0065FC;
@@ -182,9 +149,7 @@ button i.fas.fa-search
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 27px
-
 }
-
 @media screen and (max-width: 768px)
 {
     .recherche
@@ -201,8 +166,6 @@ button i.fas.fa-search
     {
         font-size: 0px;
     }
-
-
     .recherche button 
     {
         background-color: #0065FC;
@@ -212,10 +175,8 @@ button i.fas.fa-search
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         height: 27px;
-
     }
 }
-
 .filtres
 {
     display: flex;
@@ -223,8 +184,6 @@ button i.fas.fa-search
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-
 .filter_button
 {
     background-color: white;
@@ -236,20 +195,16 @@ button i.fas.fa-search
     width: 200px;
     height: 43px;
 }
-
 .filter_button:hover
 {
     background-color: #F2F2F2;
 }
-
-
 #filtres button a
 {
     display: flex;
     align-items: flex-start;
     color: #0065FC;
 }
-
 .filtres a p
 {
     font-family: "Raleway", "Sans serif";
@@ -257,7 +212,6 @@ button i.fas.fa-search
     display: flex;
     align-items: center
 }
-
 .filter_button .fas /* icone */
 {
     background-color: #DEEBFF;
@@ -272,12 +226,10 @@ button i.fas.fa-search
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 .filter_button a
 {
     font-size: 15px
 }
-
 @media screen and (max-width: 768px)
 {
     .filtres
@@ -289,32 +241,25 @@ button i.fas.fa-search
         width: 100%;
         padding-top: 25px;
     }
-
     .filter_button
     {
         margin-bottom: 20px;
         width: auto;
-
     }
-
     .information
     {
         width: auto;
     }
-
 }
-
-
 i.fas.fas-info
 {
     display: flex;
 }
-
 .information 
 {
     display: flex;
     text-align: center;
-    align-items:center ;
+    align-items: center ;
 }
 .information .fas
 {
@@ -327,7 +272,6 @@ i.fas.fas-info
     align-items: center;
     justify-content: center;
 }
-
 #section_heg_pop
 {
     display: flex;
@@ -335,17 +279,14 @@ i.fas.fas-info
     flex-flow: row nowrap;
     width: auto;
 }
-
 .bloc_hébergements 
 {
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 10px;
     width: 1000px;
-    height: auto;
-    margin-left: 21px;
+    height: 500px
 }
-
 .bloc_hébergements h1
 {
     padding-left: 25px
@@ -368,7 +309,6 @@ i.fas.fas-info
     margin-bottom: 10px;
     margin-right: 1px;
 }
-
 .bloc_logement img
 {
     width: 258px;
@@ -378,29 +318,24 @@ i.fas.fas-info
     border-top-right-radius: 10px;;
     object-fit: cover;
 }
-
 i.fa-star
 {
     color: #0065FC;
 }
-
 i.grey
 {
     color: #F2F2F2 ;
 }
 /*.bloc_logement a /* bloc logements dans hébergements */
-
 aside h2
 {
     display: flex;
     justify-content: space-around;
 }
-
 i.fas.fa-chart-line
 {
     margin-left: 50px;
 }
-
 .bloc_populaires /* bloc populaires */
 {
     display: flex;
@@ -413,9 +348,7 @@ i.fas.fa-chart-line
     border-radius: 10px;
     width: 450px;
     height: 500px;
-    margin-right: 20px;
 }
-
 .hotels_pop
 {
     display: flex;
@@ -423,7 +356,6 @@ i.fas.fa-chart-line
     justify-content: space-between;
     align-content: center;
 }
-
 .bloc_logement_2 a /* bloc logements dans populaires */
 {
     margin: auto;
@@ -437,13 +369,11 @@ i.fas.fa-chart-line
     width: 290px;
     height: 115px;
 }
-
 .bloc_logement_2
 {
     width: 40%;
     height: 130px;
 }
-
 .bloc_logement_2 img
 {
     border-top-left-radius: 10px;
@@ -453,8 +383,6 @@ i.fas.fa-chart-line
     object-fit: cover;
     padding-right: 5px;
 }
-
-
 @media screen and (max-width: 768px)
 {
     #section_heg_pop
@@ -462,12 +390,10 @@ i.fas.fa-chart-line
         display: flex;
         flex-direction: column;
     }
-
     aside
     {
         order: -1;
     }
-
     .bloc_hébergements
     {
         display: flex;
@@ -477,14 +403,11 @@ i.fas.fa-chart-line
         width: 100%;
         height: auto;
     }
-
     .hotels
     {   
         display: flex;
         flex-wrap: wrap;
     }
-
-
     .bloc_populaires
     {
         display: flex;
@@ -495,7 +418,6 @@ i.fas.fa-chart-line
         height: auto;
         padding-bottom: 20px;
     }
-
     .bloc_logement_2
     {
         margin-bottom: 20px;
@@ -516,14 +438,12 @@ i.fas.fa-chart-line
 }
 
 
-
 #activités h2 /* bloc lieu activités */
 {
     display: flex;
     justify-content: flex-start;
     padding-left: 25px;
 }
-
 #activités 
 {
     display: flex;
@@ -531,7 +451,6 @@ i.fas.fa-chart-line
     flex-wrap: wrap;
     border: 1px white solid;
     margin-bottom: 50px;
-
 }
 .bloc_activité_1 a /* bloc activités portrait */
 {
@@ -550,14 +469,12 @@ i.fas.fa-chart-line
     height: 400px;
     object-fit: cover;
 }
-
 .bloc_activité_1 p
 {
     width: auto;
     margin: 0.25em;
     padding: 0.25em;
 }
-
 .colonne_activité
 {
     display: flex;
@@ -580,7 +497,6 @@ i.fas.fa-chart-line
     margin: 0.25em;
     padding: 0.25em;
 }
-
 .bloc_activité_2 img
 {
     border-top-left-radius: 10px;
@@ -588,7 +504,6 @@ i.fas.fa-chart-line
     height: 150px;
     object-fit: cover;
 }
-
 @media screen and (max-width: 768px)
 {
     #activités
@@ -598,7 +513,6 @@ i.fas.fa-chart-line
         justify-content: space-around;
         align-content: center;
         align-items: center; 
-
     }
     .bloc_activité_1 a
     {
@@ -610,7 +524,6 @@ i.fas.fa-chart-line
         width: 250px; 
         height: 200px;
     }
-
     .bloc_activité_1 img
     {
         border-top-left-radius: 10px;
@@ -618,7 +531,6 @@ i.fas.fa-chart-line
         height: 150px;
         object-fit: cover;
     }
-
     .bloc_activité_1
     {
         margin-bottom: 20px;
@@ -651,7 +563,6 @@ i.fas.fa-chart-line
     justify-content: space-between;
     order: -1;
     margin-right: 15px;
-
 }
 }
 
