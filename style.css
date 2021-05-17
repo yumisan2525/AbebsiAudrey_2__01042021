@@ -39,7 +39,9 @@ body {
     font-family: "Raleway", "Sans serif";
     font-size: 13px;
     list-style: none;
-    background-color: white
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
     /*font page */
 }
 #bloc_page
